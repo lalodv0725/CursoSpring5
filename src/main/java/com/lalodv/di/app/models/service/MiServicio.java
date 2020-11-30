@@ -3,7 +3,7 @@ package com.lalodv.di.app.models.service;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Component("MiServicio") // @Service tambien se puede usar en lugar de @Component
+@Component("MiServicioSimple") // @Service tambien se puede usar en lugar de @Component
 public class MiServicio implements IServicio{
 
     @Override
